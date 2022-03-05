@@ -1213,7 +1213,6 @@ input[type="radio"] + label:before {
 /* Image */
 .image {
   border-radius: 0.375em;
-  border: 0;
   display: inline-block;
   position: relative; }
   .image img {
@@ -1769,6 +1768,7 @@ button,
       margin-bottom: 0; }
     .posts article .image {
       display: block;
+      border: .5px solid black;
       margin: 0 0 2em 0; }
       .posts article .image img {
         display: block;
